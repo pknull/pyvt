@@ -26,7 +26,7 @@ def background_thread():
                       namespace='/test')
 
 
-@app.route('/')
+@app.route('/socket.io')
 def index():
     return render_template('index.html', async_mode=socketio.async_mode)
 
@@ -108,4 +108,4 @@ def test_disconnect():
 
 
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', debug=True)
+    socketio.run(app, host='0.0.0.0', port=5000, debug=True)

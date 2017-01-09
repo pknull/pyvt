@@ -20,9 +20,19 @@ system. Till then, everything is alpha.
 * Map Tool
     * Whiteboard like drawing
     * Sprites
+    * Grid (octagon or square)
 * Dice Roller
 
-### Technical idea
+### Technical ideas
 * Socket.io
     * namespace chat
     * namespace whiteboard
+* System templates
+    * mini char sheet for reference
+    * roll macros
+
+### a later phase ideas
+* Use google actions to look up game rules
+    * trigger phrase 'how do I roll'
+    * Invocation name 'action/attribute'
+    * action phrase 'game system'
